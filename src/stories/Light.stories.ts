@@ -1,7 +1,7 @@
 import {Meta, StoryObj} from '@storybook/react'
 import React from 'react';
 
-import {Light} from "@/Light";
+import {Light} from "@/components/custom/Light";
 
  const meta: Meta<typeof  Light>={
     title: 'Buttons/Light',
