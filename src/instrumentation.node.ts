@@ -5,7 +5,6 @@ import { SEMRESATTRS_SERVICE_NAME } from '@opentelemetry/semantic-conventions'
 import { BatchSpanProcessor } from '@opentelemetry/sdk-trace-node'
 import { getNodeAutoInstrumentations } from '@opentelemetry/auto-instrumentations-node'
 
-
 const sdk = new NodeSDK({
     resource: new Resource({
         [SEMRESATTRS_SERVICE_NAME]: 'my-next-app',
